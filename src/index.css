@@ -29,13 +29,26 @@ code {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
+.containerLarge {
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: beige;
+  padding: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
 li {
   text-align: start;
 }
 
-button {
+/* button {
   border-radius: 10px;
   font-size: 2rem;
   padding: 0 10px 5px;
   margin: 10px;
+} */
+
+th,
+td {
+  padding: 0.25rem 1rem;
 }
