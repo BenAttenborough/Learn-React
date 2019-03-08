@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-// import ShoppingList from "./ShoppingList/ShoppingListStart";
+import ShoppingList from "./ShoppingList/ShoppingListStart";
 // import { Counter, CounterHook } from "./Counter/CounterStart";
 // import { Counter } from "./Counter/CounterStart";
 import Conditional from "./Conditional/Conditional";
 // import Table from "./TableEnd/Table";
 // import { colHeadings, items } from "./TableData";
-import "./App.css";
+import "./Application.css";
 
 class Application extends Component {
   render() {
     return (
       <div className="App">
-        {/* <ShoppingList /> */}
+        <ShoppingList />
         {/* <Counter /> */}
         {/* <CounterHook /> */}
-        <Conditional />
+        {/* <Conditional /> */}
         {/* <Table
           titleText={"Assigned Controllers: Demo Kits"}
           colHeadings={colHeadings}
