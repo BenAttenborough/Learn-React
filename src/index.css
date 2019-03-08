@@ -8,11 +8,12 @@ body {
 }
 
 h1 {
-	font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 0;
 }
 
 p {
-	font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 code {
@@ -20,14 +21,21 @@ code {
     monospace;
 }
 
-.shoppingList {
-	max-width: 400px;
-	margin: 50px auto;
-	background-color: beige;
-	padding: 10px;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.1);
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: beige;
+  padding: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 li {
-	text-align: start
+  text-align: start;
+}
+
+button {
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 0 10px 5px;
+  margin: 10px;
 }
