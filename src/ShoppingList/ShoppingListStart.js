@@ -2,12 +2,12 @@ import React from 'react';
 
 function ShoppingList() {
 	  return (
-		<div className="shopping-list">
-		  <h1>Shopping List for</h1>
+		<div className="shoppingList">
+		  <h1>Shopping List for ???</h1>
 		  <ul>
-			<li>Instagram</li>
-			<li>WhatsApp</li>
-			<li>Oculus</li>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
 		  </ul>
 		</div>
 	  );

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import ShoppingList from "./ShoppingList";
+import ShoppingList from "./ShoppingList/ShoppingListStart";
 import './App.css';
 
 class Application extends Component {
 	render() {
+		const list = ["Milk", "Butter", "Flour"]
 	  return (
 		<div className="App">
-		  <ShoppingList />
+		  <ShoppingList name={"Ben"} list={list} />
 		</div>
 	  );
 	}
