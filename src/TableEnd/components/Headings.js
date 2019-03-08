@@ -1,7 +1,7 @@
 import React from "react";
 
 const Headings = ({ colHeadings }) => {
-  console.log(colHeadings);
+  //   console.log(colHeadings);
   return (
     <tr>
       {colHeadings.map((heading, idx) => (

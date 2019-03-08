@@ -1,7 +1,7 @@
 import React from "react";
 
 const Rows = ({ items }) => {
-  console.log(items);
+  //   console.log(items);
   return [
     items.map((rows, idx) => (
       <tr key={`${idx}`}>
